@@ -1,0 +1,229 @@
+/* For screens up to 1024px */
+@media only screen and (max-width: 1024px) {
+    main {
+        max-width: 818px;
+    }
+    .contact-info,
+    .contact-form {
+        width: 45%;
+    }
+}
+
+/* For screens up to 992px */
+@media only screen and (max-width: 992px) {
+    .calendar-content .btn-group {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    main {
+        max-width: 597px;
+    }
+    .nav-mobile {
+        display: block;
+    }
+    .left-pd {
+        margin-left: 5px;
+    }
+    nav {
+        width: 100%;
+        padding: 55px 0 15px;
+    }
+    nav ul li .btn1{
+        width: 94%;
+    text-align: center;
+    margin-left: 3%;
+    }
+    .left-pd {
+        margin-left: 0;
+    }
+    nav ul li .btn2{
+        width: 94%;
+    text-align: center;
+    margin-left: 3%;
+    }
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        float: none;
+    }
+    .row1 {
+        flex-direction: column;
+    }
+    .contact-info {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .sponsor {
+        padding: 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+        background: #262626;
+    }
+    nav ul li ul li a {
+        padding-left: 30px;
+    }
+    .navbar-dropdown {
+        position: static;
+    }
+    .header-content h2 {
+        font-size: 50px;
+    }
+    .inner-content .des {
+        font-size: 16px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    section {
+        padding: 70px 0;
+    }
+    .work {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .app-info {
+        padding: 0 80px;
+    }
+    .inner-content {
+        padding-bottom: 35px !important;
+    }
+}
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {
+    .nav-list {
+        display: block !important;
+    }
+}
+
+/* For screens up to 900px */
+@media only screen and (max-width: 900px) {
+    section.half-color-box {
+        padding: 10px 0;
+    }
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .swiper-wrapper {
+        height: 350px !important;
+    }
+    .swiper-slide,
+    .swiper-slide.swiper-slide-prev,
+    .swiper-slide.swiper-slide-active,
+    .swiper-slide.swiper-slide-next {
+        width: 50% !important;
+    }
+}
+
+/* For screens up to 574px */
+@media (max-width: 574px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .footer-col {
+        width: 50%;
+    }
+    .form form {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .section-title {
+        padding: 29px 0;
+    }
+    .sponsor-1,
+    .sponsor-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .des,
+    .inner-content .des {
+        width: 100%;
+        margin-left: 0;
+    }
+    .card {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 35px 30px 0;
+    }
+    .section-titles {
+        font-size: 40px;
+    }
+    .tools .des {
+        font-size: 18px;
+    }
+    .employ-content .sub-head {
+        font-size: 14px;
+    }
+    .work {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btn-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .btn-group .btn1 {
+        margin-left: 0;
+    }
+    .swiper-slide,
+    .swiper-slide.swiper-slide-prev,
+    .swiper-slide.swiper-slide-active,
+    .swiper-slide.swiper-slide-next {
+        width: 100% !important;
+    }
+    .swiper-wrapper {
+        height: 350px !important;
+    }
+    .app-info {
+        padding: 0;
+    }
+    .social-proof div {
+        padding: 0 8px;
+    }
+}
+
+/* For screens up to 360px */
+@media (max-width: 360px) {
+    main {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .des {
+        color: #4e4e77;
+        text-align: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+    .employ-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    .employ-content .section-titles {
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
